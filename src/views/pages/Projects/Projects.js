@@ -4,9 +4,10 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionT
 
 const Projects = (props) => {
   const projects = [
-    {title:'Accura Scan',image:'assets/images/project/img-1.jpg',url:'https://accurascan.com/',skill:'Full Stack Based Project/Laravel & MySQL'},
-    {title:'Teach Me How',image:'assets/images/project/img-1.jpg',url:'https://teachmehow.today/',skill:'Full Stack Based Project/Laravel & MySQL'},
-    {title:'Reptrics',image:'assets/images/project/img-1.jpg',url:'https://www.reptrics.com/',skill:'Full Stack Based Project/Laravel & MySQL'}   
+    {title:'Portfolio',image:'assets/images/project/portfolio.png',url:'https://yogeshvakhre.vercel.app/',skill:'My portfolio website to showcase my skills and projects.',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/react.svg']},
+    {title:'Accura Scan',image:'assets/images/project/accurascan.png',url:'https://accurascan.com/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']},
+    {title:'Teach Me How',image:'assets/images/project/teachmehow.png',url:'https://teachmehow.today/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']},
+    {title:'Reptrics',image:'assets/images/project/reptrics.png',url:'https://www.reptrics.com/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']}   
   ];
   return (
     <>
@@ -33,7 +34,7 @@ const Projects = (props) => {
           </div>
           <div className="wpo-project-wrap wpo-project-slide owl-carousel">
           {projects.map((project,index) => (
-            <ProjectItem  key={index} title={project.title} image={project.image} url={project.url} skill={project.skill}/> 
+            <ProjectItem  key={index} title={project.title} image={project.image} url={project.url} skill={project.skill} icons={project.icons}/> 
           ))}
           </div>
         </div>
