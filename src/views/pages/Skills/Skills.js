@@ -35,8 +35,9 @@ const Skills = (props) => {
             <div className="col-lg-12 offset-lg-1 col-md-12 col-sm-12">
               <div className="wpo-about-content">
                 <div className="wpo-about-funfact">
-                  {SkillsData.map((data) => (
+                  {SkillsData.map((data,index) => (
                     <GridItem
+                      key={index}
                       count={data.count}
                       skillName={data.skillName}
                       background={data.background}

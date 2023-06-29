@@ -39,8 +39,9 @@ const AboutSection = (props) => {
                   </p> */}
                 </div>
                 <div className="wpo-about-funfact">
-                  {SkillsData.map((data) => (
+                  {SkillsData.map((data,index) => (
                     <GridItem
+                      key={index}
                       count={data.count}
                       skillName={data.skillName}
                       background={data.background}
