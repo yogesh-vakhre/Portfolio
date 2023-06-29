@@ -275,6 +275,9 @@ img {
   display: none;
   margin-top: 10px;
 }
+#skills.wpo-about-area .wpo-about-content .wpo-about-funfact .grid {
+  flex-basis: 13.33%;
+}
 .contact-validation-active #c-loader i,
 .contact-validation-active #loader i {
   font-size: 30px;
