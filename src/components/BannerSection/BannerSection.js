@@ -27,7 +27,7 @@ const BannerSection = (props) => {
                       </p>
                     </div>
                     <div className="clearfix"></div>
-                    <div className="slide-btn">                     
+                    <div className="slide-btn">
                       <a
                         className="theme-btn mx-2"
                         download="My Cv"
@@ -38,7 +38,7 @@ const BannerSection = (props) => {
                       <Link
                         className="theme-btn"
                         style={{ background: "#59C378" }}
-                        to="/"
+                        to="/contact"
                       >
                         Contact Me
                       </Link>
