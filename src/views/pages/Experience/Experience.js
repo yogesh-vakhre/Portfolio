@@ -1,24 +1,34 @@
 import React from "react";
 import ExperienceItem from "./ExperienceItem/ExperienceItem";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionTitle";
 
 const Experience = (props) => {
+  const experience = [
+    {date:'Aug 2018 - Nov 2020',logo:'./assets/images/experience/logo/koli-infotech.png',position:'Web Developer',location:'Surat, Gujarat, India',websiteUrl:'https://koliinfotech.com/'},
+    {date:'Sept 2020 - Nov 2021',logo:'./assets/images/experience/logo/dynamicdreamz.png',position:'PHP Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://www.dynamicdreamz.com/'},
+    {date:'Dec 2021 - Aug 2022',logo:'./assets/images/experience/logo/technozer.webp',position:'Web Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://technozer.com/'},
+    {date:'Sept 2022 - Present',logo:'./assets/images/experience/logo/99plugin.jpeg',position:'PHP Developer',location:'Surat, Gujarat, India',websiteUrl:''},
+  ];
   return (
     <>
+     <SectionTitle pageTitle="Experience" sectionTitleClass="" />
       <div className="wpo-work-area section-padding" id="experience">
         <div className="container">
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-lg-6 col-12">
               <div className="wpo-section-title">
                 <h2>My Work Experience</h2>
                 <p>
                   Must explain to you how all this mistaken idea of denouncing
                   pleasure born and give you a complete account the system
-                </p>
+                  </p>  
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="wpo-work-wrap">
-            <ExperienceItem />
+          {experience.map((item,index) => (
+            <ExperienceItem key={index} date={item.date} position={item.position} logo={item.logo} location={item.location} websiteUrl={item.websiteUrl} />
+            ))}  
           </div>
         </div>
         <div className="shape-wk">

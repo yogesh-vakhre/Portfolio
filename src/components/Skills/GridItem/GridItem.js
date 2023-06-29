@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const GridItem = (props) => {
   const {count ,skillName,colorText} =props;
@@ -20,6 +20,6 @@ const GridItem = (props) => {
   );
 };
 
-GridItem.propTypes = {};
+// GridItem.propTypes = {};
 
 export default GridItem;
