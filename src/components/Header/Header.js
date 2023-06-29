@@ -65,7 +65,7 @@ const Header = (props) => {
                       <a
                         className="theme-btn"
                         download="My Cv"
-                        href="assets/resume/yogeshvakhre_4+_resume.pdf"
+                        href="https://drive.google.com/file/d/1DMlctv_HhViajpILFFbTjQuw4yptp8F4/view?usp=drivesdk"
                         title="ImageName"
                       >
                         <img

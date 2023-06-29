@@ -27,14 +27,7 @@ const BannerSection = (props) => {
                       </p>
                     </div>
                     <div className="clearfix"></div>
-                    <div className="slide-btn">
-                      <a
-                        className="theme-btn mx-2"
-                        download="My Cv"
-                        href="assets/resume/yogeshvakhre_4+_resume.pdf"
-                      >
-                        Resume
-                      </a>
+                    <div className="slide-btn">                   
                       <Link
                         className="theme-btn"
                         style={{ background: "#59C378" }}
