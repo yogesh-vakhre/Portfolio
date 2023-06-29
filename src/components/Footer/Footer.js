@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 //import PropTypes from 'prop-types'
 
 const Footer = (props) => {
@@ -16,30 +15,30 @@ const Footer = (props) => {
 
                 <div className="social-icons">
                   <ul>
+                  <li>
+                      <a href="https://github.com/Yogesh-Vakhre"  target="_blank"  title="GitHub" rel="noreferrer">
+                        <i className="fa fa-github" style={{fontSize:"20px"}}></i>
+                      </a>
+                    </li>
                     <li>
-                      <Link to="#">
+                      <a href="/#" title="Facebook" rel="noreferrer">
                         <i className="ti-facebook"></i>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="/#" title="Twitter" rel="noreferrer">
                         <i className="ti-twitter-alt"></i>
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="#">
+                      <a href="https://www.linkedin.com/in/yogesh-vakhre/"  target="_blank" title="Linkedin" rel="noreferrer">
                         <i className="ti-linkedin"></i>
-                      </Link>
-                    </li>
+                      </a>
+                    </li>                     
                     <li>
-                      <Link to="#">
-                        <i className="ti-pinterest"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-vimeo-alt"></i>
-                      </Link>
+                      <a href="mailto:yogeshvakhre143@gmail.com" title="Gmail" rel="noreferrer">
+                        <i className="ti-email"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
