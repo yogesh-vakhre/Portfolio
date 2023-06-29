@@ -4444,7 +4444,7 @@ img {
 .wpo-about-area .wpo-about-content .wpo-about-funfact .grid,
 .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
   background: linear-gradient(180deg, rgba(255, 230, 0, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%);
-  flex-basis: 28.33%;
+  /* flex-basis: 28.33%; */
   margin: 0 15px;
   border-radius: 12px;
   margin-bottom: 30px;
