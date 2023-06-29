@@ -47,27 +47,40 @@ const BannerSection = (props) => {
             <div className="static-hero-img-inner">
               <img src="assets/images/slider/1.jpg" alt="" />
               <div className="icon-1 floating-item">
-                <img src="assets/images/icon/photoshop.svg" alt="" />
+                {/* <img src="assets/images/icon/photoshop.svg" alt="" /> */}
+                <img className="w-12" src="assets/images/icon/laravel.min.svg" alt="Laravel" width="50" height="52"/>
+                <img src="assets/images/icon/laravel.logotype.min.svg" alt=""/>
               </div>
               <div className="icon-2 floating-item">
-                <img src="assets/images/icon/illustrator.svg" alt="" />
-              </div>
+                <img src="assets/images/icon/javascript.svg" alt="" />
+              </div>              
               <div className="icon-3 floating-item">
-                <img src="assets/images/icon/diamond.svg" alt="" />
+                <img src="assets/images/icon/html.svg" alt="" />
+              </div>
+              <div className="icon-4 floating-item">
+                <img src="assets/images/icon/css.svg" alt="" />
+              </div>
+              
+              <div className="icon-5 floating-item">
+                <img src="assets/images/icon/aws.svg"  style={{borderRadius:'0%'}} alt="" />
+              </div>
+              <div className="icon-6 floating-item">
+                <img src="assets/images/icon/mysql.svg" style={{borderRadius:'0%'}} alt="" />
               </div>
               <div className="project floating-item">
                 <div className="icon">
-                  <i className="fi flaticon-verified"></i>
+                <img src="assets/images/icon/php.svg" width="150" alt="" />
+                  {/* <i className="fi flaticon-verified"></i> */}
                 </div>
-                <div className="p-text">
+                {/* <div className="p-text">
                   <h3>
-                    <span className="odometer" data-count="1500">
+                    <span className="odometer" data-count="20">
                       00
                     </span>
                     +
                   </h3>
                   <p>Complete Project</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
