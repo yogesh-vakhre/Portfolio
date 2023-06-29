@@ -3,6 +3,11 @@ import ProjectItem from "../../../components/ProjectItem/ProjectItem";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionTitle";
 
 const Projects = (props) => {
+  const projects = [
+    {title:'Accura Scan',image:'assets/images/project/img-1.jpg',url:'https://accurascan.com/',skill:'Full Stack Based Project/Laravel & MySQL'},
+    {title:'Teach Me How',image:'assets/images/project/img-1.jpg',url:'https://teachmehow.today/',skill:'Full Stack Based Project/Laravel & MySQL'},
+    {title:'Reptrics',image:'assets/images/project/img-1.jpg',url:'https://www.reptrics.com/',skill:'Full Stack Based Project/Laravel & MySQL'}   
+  ];
   return (
     <>
       <SectionTitle pageTitle="Projects" sectionTitleClass="" />
@@ -13,10 +18,10 @@ const Projects = (props) => {
               <div className="col-lg-4 col-12">
                 <div className="title">
                   <h2>Recent Work.</h2>
-                  <p>
+                  {/* <p>
                     Must explain to you how all this mistaken idea pleasure born
                     and give you a complete account.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="col-lg-6 offset-lg-2">
@@ -27,7 +32,9 @@ const Projects = (props) => {
             </div>
           </div>
           <div className="wpo-project-wrap wpo-project-slide owl-carousel">
-            <ProjectItem />
+          {projects.map((project,index) => (
+            <ProjectItem  key={index} title={project.title} image={project.image} url={project.url} skill={project.skill}/> 
+          ))}
           </div>
         </div>
         <div className="shape-p">
