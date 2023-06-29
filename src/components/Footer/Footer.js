@@ -9,13 +9,11 @@ const Footer = (props) => {
         <div className="lower-footer">
           <div className="container">
             <div className="row">
-              <div className="separator"></div>
-
-              <div className="widget about-widget">
-              
+              <div className="widget about-widget  d-flex justify-content-between py-4">
                 <p className="copyright">
                   Copyright &copy; 2022 Yogesh Vakhre. All rights reserved.
                 </p>
+
                 <div className="social-icons">
                   <ul>
                     <li>
