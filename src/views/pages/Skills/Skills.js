@@ -1,110 +1,48 @@
 import React from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionTitle";
+import GridItem from "../../../components/Skills/GridItem/GridItem";
 
 //import PropTypes from 'prop-types'
 
 const Skills = (props) => {
+  const SkillsData = [
+    { skillName: "HTML", count: "90", colorText: "Tomato" },
+    { skillName: "CSS", count: "60", colorText: "blue" },
+    { skillName: "Javascript", count: "85", colorText: "yellow" },
+    { skillName: "Jquery", count: "85", colorText: "#0769ad" },
+    { skillName: "Bootstrap", count: "85", colorText: "#5a23c8" },
+    { skillName: "React.js", count: "70", colorText: "#7acef4" },
+    { skillName: "Node.js", count: "80", colorText: "green" },
+    { skillName: "Express.js", count: "85", colorText: "#d8d8d8" },
+    { skillName: "PHP", count: "90", colorText: "#4f5b93" },
+    { skillName: "Laravel", count: "85", colorText: "rgb(235 68 50)" },
+    { skillName: "Mongodb", count: "70", colorText: "rgb(17, 97, 73)" },
+    { skillName: "MySQL", count: "80", colorText: "#3E6E93" },
+    { skillName: "OOPS", count: "85", colorText: "red" },
+    { skillName: "Github", count: "80", colorText: "#d8d8d894" },
+    { skillName: "Bitbucket", count: "80", colorText: "#0065ff" },
+    { skillName: "GitLab", count: "80", colorText: "#f24f63" },
+    { skillName: "Jira", count: "70", colorText: "#013c93" },
+    { skillName: "Trello", count: "70", colorText: "rgb(237, 80, 180)" },
+    { skillName: "Agile Methodology", count: "80", colorText: "green" },
+  ];
   return (
     <>
-      <SectionTitle pageTitle="Skills" sectionTitleClass=""/>
+      <SectionTitle pageTitle="Skills" sectionTitleClass="" />
       <div className="wpo-about-area section-padding" id="skills">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-5 col-md-12 col-sm-12">
-              <div className="wpo-about-exprience-wrap">
-                <div className="wpo-about-exprience">
-                  <h2>08</h2>
-                  <span>Years of Experience</span>
-                </div>
-                <div className="client">
-                  <h3>
-                    <span className="odometer" data-count="100">
-                      00
-                    </span>
-                    %
-                  </h3>
-                  <p>Clients Satisfections</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
+            <div className="col-lg-12 offset-lg-1 col-md-12 col-sm-12">
               <div className="wpo-about-content">
-                <div className="wpo-about-title">
-                  <h2>My Advantage</h2>
-                  <p>
-                    Must explain to you how all this mistaken idea of denouncing
-                    pleasure and praising pain was born and I will give you a
-                    complete account the system and expound the actual and
-                    praising pain was born.
-                  </p>
-                </div>
                 <div className="wpo-about-funfact">
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="98">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>Figma</p>
-                    </div>
-                  </div>
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="92">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>Sketch</p>
-                    </div>
-                  </div>
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="88">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>Photoshop</p>
-                    </div>
-                  </div>
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="72">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>Illustrator</p>
-                    </div>
-                  </div>
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="43">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>WordPress</p>
-                    </div>
-                  </div>
-                  <div className="grid">
-                    <div className="grid-inner">
-                      <h3>
-                        <span className="odometer" data-count="37">
-                          00
-                        </span>
-                        %
-                      </h3>
-                      <p>ReactJS</p>
-                    </div>
-                  </div>
+                  {SkillsData.map((data) => (
+                    <GridItem
+                      count={data.count}
+                      skillName={data.skillName}
+                      background={data.background}
+                      colorText={data.colorText}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
