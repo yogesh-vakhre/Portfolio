@@ -45,11 +45,11 @@ const BannerSection = (props) => {
         <div className="static-hero-right">
           <div className="static-hero-img">
             <div className="static-hero-img-inner">
-              <img src="assets/images/slider/1.jpg" alt="" />
+              <img src="assets/images/slider/profile-pic.png" alt="" />
               <div className="icon-1 floating-item">
                 {/* <img src="assets/images/icon/photoshop.svg" alt="" /> */}
                 <img className="w-12" src="assets/images/icon/laravel.min.svg" alt="Laravel" width="50" height="52"/>
-                <img src="assets/images/icon/laravel.logotype.min.svg" alt=""/>
+                {/* <img src="assets/images/icon/laravel.logotype.min.svg" alt=""/> */}
               </div>
               <div className="icon-2 floating-item">
                 <img src="assets/images/icon/javascript.svg" alt="" />
@@ -57,7 +57,7 @@ const BannerSection = (props) => {
               <div className="icon-3 floating-item">
                 <img src="assets/images/icon/html.svg" alt="" />
               </div>
-              <div className="icon-4 floating-item">
+              {/* <div className="icon-4 floating-item">
                 <img src="assets/images/icon/css.svg" alt="" />
               </div>
               
@@ -66,7 +66,7 @@ const BannerSection = (props) => {
               </div>
               <div className="icon-6 floating-item">
                 <img src="assets/images/icon/mysql.svg" style={{borderRadius:'0%'}} alt="" />
-              </div>
+              </div> */}
               <div className="project floating-item">
                 <div className="icon">
                 <img src="assets/images/icon/php.svg" width="150" alt="" />

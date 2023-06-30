@@ -24,7 +24,7 @@ const Header = (props) => {
                   <div className="navbar-header">
                     <Link className="navbar-brand site-logo" to="/">
                       {/* <img src="assets/images/logo.png" alt="" /> */}
-                      {'<'} Yogesh Vakhre {'/>'}
+                      Yogesh Vakhre.
                     </Link>
                   </div>
                 </div>

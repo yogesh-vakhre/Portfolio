@@ -21,7 +21,7 @@ const AboutSection = (props) => {
   ];
   return (
     <>
-      <div className="wpo-about-area section-padding" id="skills">
+      <div className="wpo-about-area section-padding">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12 col-sm-12">
