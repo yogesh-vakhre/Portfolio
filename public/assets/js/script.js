@@ -227,7 +227,7 @@
     /*------------------------------------------
         = HIDE PRELOADER
     -------------------------------------------*/
-    function preloader() {
+    /*function preloader() {
       if ($(".preloader").length) {
         $(".preloader")
           .delay(100)
@@ -236,7 +236,7 @@
             wow.init();
           });
       }
-    }
+    }*/
 
     /*------------------------------------------
         = WOW ANIMATION SETTING
@@ -474,46 +474,46 @@
     /*------------------------------------------
     wpo-project-slide
     -------------------------------------------*/
-    if ($(".wpo-project-slide").length) {
-      $(".wpo-project-slide").owlCarousel({
-        autoplay: true,
-        smartSpeed: 300,
-        margin: 30,
-        items: 3,
-        loop: true,
-        autoplayHoverPause: true,
-        dots: false,
-        arrows: true,
-        navText: [
-          '<i class="fi ti-arrow-left"></i>',
-          '<i class="fi ti-arrow-right"></i>',
-        ],
-        nav: false,
-        responsive: {
-          0: {
-            items: 1,
-            dots: true,
-            arrows: false,
-            nav: false,
-          },
+    // if ($(".wpo-project-slide").length) {
+    //   $(".wpo-project-slide").owlCarousel({
+    //     autoplay: true,
+    //     smartSpeed: 300,
+    //     margin: 30,
+    //     items: 3,
+    //     loop: true,
+    //     autoplayHoverPause: true,
+    //     dots: false,
+    //     arrows: true,
+    //     navText: [
+    //       '<i class="fi ti-arrow-left"></i>',
+    //       '<i class="fi ti-arrow-right"></i>',
+    //     ],
+    //     nav: false,
+    //     responsive: {
+    //       0: {
+    //         items: 1,
+    //         dots: true,
+    //         arrows: false,
+    //         nav: false,
+    //       },
 
-          575: {
-            items: 1,
-          },
-          767: {
-            items: 2,
-          },
+    //       575: {
+    //         items: 1,
+    //       },
+    //       767: {
+    //         items: 2,
+    //       },
 
-          992: {
-            items: 3,
-          },
+    //       992: {
+    //         items: 3,
+    //       },
 
-          1200: {
-            items: 3,
-          },
-        },
-      });
-    }
+    //       1200: {
+    //         items: 3,
+    //       },
+    //     },
+    //   });
+    // }
 
     /*------------------------------------------
         = wpo-blog-slide 
@@ -719,7 +719,7 @@
         WHEN DOCUMENT LOADING
     ==========================================================================*/
     $(window).on("load", function () {
-      preloader();
+     // preloader();
 
       sortingGallery();
 

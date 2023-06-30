@@ -758,6 +758,7 @@ img {
 }
 
 .preloader {
+  display: none;
   background-color: #202020;
   width: 100%;
   height: 100%;
