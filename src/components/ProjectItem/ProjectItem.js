@@ -4,7 +4,7 @@ const ProjectItem = (props) => {
   const { title, image, url, skill, icons } = props;
   return (
     <>
-      <div className="wpo-project-item">
+      <div className="wpo-project-item col-md-4 mb-4">
         <div className="wpo-project-img">
           <img src={image} alt={title} />
         </div>

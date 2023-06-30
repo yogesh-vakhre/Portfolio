@@ -32,7 +32,7 @@ const Projects = (props) => {
               </div>
             </div>
           </div>
-          <div className="wpo-project-wrap wpo-project-slide owl-carousel">
+          <div className="wpo-project-wrap wpo-project-slide row ">
           {projects.map((project,index) => (
             <ProjectItem  key={index} title={project.title} image={project.image} url={project.url} skill={project.skill} icons={project.icons}/> 
           ))}
