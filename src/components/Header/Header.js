@@ -64,8 +64,8 @@ const Header = (props) => {
                     <div className="header-btn">
                       <a
                         className="theme-btn"
-                        download="My Cv"
-                        href="https://drive.google.com/file/d/1DMlctv_HhViajpILFFbTjQuw4yptp8F4/view?usp=drivesdk"
+                        download="Yogesh Vakhre 4+ Years CV"
+                        href="assets/resume/Yogesh_Vakhre_4+__Years__CV.pdf"
                         title="ImageName"
                       >
                         <img
