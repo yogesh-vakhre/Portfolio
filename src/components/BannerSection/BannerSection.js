@@ -45,7 +45,7 @@ const BannerSection = (props) => {
         <div className="static-hero-right">
           <div className="static-hero-img">
             <div className="static-hero-img-inner">
-              <img src="assets/images/slider/profile-pic.png" alt="" />
+              <img src="assets/images/slider/3.png" alt="" />
               <div className="icon-1 floating-item">
                 {/* <img src="assets/images/icon/photoshop.svg" alt="" /> */}
                 <img className="w-12" src="assets/images/icon/laravel.min.svg" alt="Laravel" width="50" height="52"/>
