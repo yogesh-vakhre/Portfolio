@@ -4,11 +4,107 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionT
 
 const Projects = (props) => {
   const projects = [
-    {title:'Portfolio',image:'assets/images/project/portfolio.png',url:'https://yogeshvakhre.vercel.app/',skill:'My portfolio website to showcase my skills and projects.',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/react.svg']},
-    {title:'Accura Scan',image:'assets/images/project/accurascan.png',url:'https://accurascan.com/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']},
-    {title:'Teach Me How',image:'assets/images/project/teachmehow.png',url:'https://teachmehow.today/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']},
-    {title:'Reptrics',image:'assets/images/project/reptrics.png',url:'https://www.reptrics.com/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg']},   
-    {title:'Triangle Luxury',image:'assets/images/project/triangle-luxury.png',url:'https://www.triangle.luxury/',skill:'Full Stack Based Project/Laravel & MySQL',icons:['assets/images/icon/html.svg','assets/images/icon/css.svg','assets/images/icon/javascript.svg','assets/images/icon/jquery.svg','assets/images/icon/mysql.svg','assets/images/icon/laravel.min.svg','assets/images/icon/aws.svg']}   
+    {
+      title: "Portfolio",
+      image: "assets/images/project/portfolio.png",
+      url: "https://yogeshvakhre.vercel.app/",
+      skill: "My portfolio website to showcase my skills and projects.",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/react.svg",
+      ],
+    },
+    {
+      title: "Accura Scan",
+      image: "assets/images/project/accurascan.png",
+      url: "https://accurascan.com/",
+      skill: "Full Stack Based Project/Laravel & MySQL",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/javascript.svg",
+        "assets/images/icon/jquery.svg",
+        "assets/images/icon/mysql.svg",
+        "assets/images/icon/laravel.min.svg",
+      ],
+    },
+    {
+      title: "Teach Me How",
+      image: "assets/images/project/teachmehow.png",
+      url: "https://teachmehow.today/",
+      skill: "Full Stack Based Project/Laravel & MySQL",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/javascript.svg",
+        "assets/images/icon/jquery.svg",
+        "assets/images/icon/mysql.svg",
+        "assets/images/icon/laravel.min.svg",
+      ],
+    },
+    {
+      title: "Reptrics",
+      image: "assets/images/project/reptrics.png",
+      url: "https://www.reptrics.com/",
+      skill: "Full Stack Based Project/Laravel & MySQL",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/javascript.svg",
+        "assets/images/icon/jquery.svg",
+        "assets/images/icon/mysql.svg",
+        "assets/images/icon/laravel.min.svg",
+      ],
+    },
+    {
+      title: "Triangle Luxury",
+      image: "assets/images/project/triangle-luxury.png",
+      url: "https://www.triangle.luxury/",
+      skill: "Full Stack Based Project/Laravel & MySQL",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/javascript.svg",
+        "assets/images/icon/jquery.svg",
+        "assets/images/icon/mysql.svg",
+        "assets/images/icon/laravel.min.svg",
+        "assets/images/icon/aws.svg",
+      ],
+    },
+    {
+      title: "Free Online Image Search",
+      image: "assets/images/project/unsplash.png",
+      url: "https://github.com/yogesh-vakhre/free-online-image-search",
+      skill: "My portfolio website to showcase my skills and projects.",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/react.svg",
+      ],
+    },
+    {
+      title: "Covid19 World Tracker",
+      image: "assets/images/project/COVID-19_Tracker.png",
+      url: "https://github.com/yogesh-vakhre/free-online-image-search",
+      skill: "Frontend Based Project/Reactjs. & Material UI.",
+      icons: [
+        "assets/images/icon/html.svg",
+        "assets/images/icon/css.svg",
+        "assets/images/icon/react.svg",
+      ],
+    },
+    {
+      title: "Ax3 Independent Artist Network",
+      image: "assets/images/project/AX3.png",
+      url: "https://github.com/yogesh-vakhre/free-online-image-search",
+      skill: "Backend Based Project/Node.js.,Express.js & MongoDB.",
+      icons: [
+        "assets/images/icon/nodejs.svg",
+        "assets/images/icon/aws.svg",
+        "assets/images/icon/mongodb.svg",
+      ],
+    },
   ];
   return (
     <>
@@ -34,9 +130,16 @@ const Projects = (props) => {
             </div>
           </div>
           <div className="wpo-project-wrap wpo-project-slide row ">
-          {projects.map((project,index) => (
-            <ProjectItem  key={index} title={project.title} image={project.image} url={project.url} skill={project.skill} icons={project.icons}/> 
-          ))}
+            {projects.map((project, index) => (
+              <ProjectItem
+                key={index}
+                title={project.title}
+                image={project.image}
+                url={project.url}
+                skill={project.skill}
+                icons={project.icons}
+              />
+            ))}
           </div>
         </div>
         <div className="shape-p">

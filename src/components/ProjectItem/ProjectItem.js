@@ -6,7 +6,7 @@ const ProjectItem = (props) => {
     <>
       <div className="wpo-project-item col-md-4 mb-4">
         <div className="wpo-project-img">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} height="237" width="418" />
         </div>
         <div className="wpo-project-text">
           <h2>
@@ -17,7 +17,12 @@ const ProjectItem = (props) => {
           <span>{skill}</span>
           <div className="row">
             {icons?.map((icon, index) => (
-              <img key={index} src={icon} alt="" style={{ width: "40px" }} />
+              <img
+                key={index}
+                src={icon}
+                alt="icon"
+                style={{ width: "40px" }}
+              />
             ))}
           </div>
         </div>
