@@ -86,7 +86,7 @@ const Projects = (props) => {
     {
       title: "Covid19 World Tracker",
       image: "assets/images/project/COVID-19_Tracker.png",
-      url: "https://github.com/yogesh-vakhre/free-online-image-search",
+      url: "https://github.com/yogesh-vakhre/covid-19-tracker",
       skill: "Frontend Based Project/Reactjs. & Material UI.",
       icons: [
         "assets/images/icon/html.svg",
@@ -97,7 +97,7 @@ const Projects = (props) => {
     {
       title: "Ax3 Independent Artist Network",
       image: "assets/images/project/AX3.png",
-      url: "https://github.com/yogesh-vakhre/free-online-image-search",
+      url: "https://www.ax3.com/",
       skill: "Backend Based Project/Node.js.,Express.js & MongoDB.",
       icons: [
         "assets/images/icon/nodejs.svg",
