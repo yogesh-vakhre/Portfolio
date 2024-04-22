@@ -63,7 +63,7 @@ const Contact = (props) => {
                 {/* <p>It is a long established fact that a reader will be distracted
                                 content of a page when looking.</p> */}
               </div>
-              <div className="wpo-contact-form-area">
+              {/* <div className="wpo-contact-form-area">
                 <form
                   method="post"
                   className="contact-validation-active"
@@ -113,7 +113,7 @@ const Contact = (props) => {
                     </div>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
