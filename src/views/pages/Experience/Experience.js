@@ -4,10 +4,12 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionT
 
 const Experience = (props) => {
   const experience = [
-    {date:'Aug 2018 - Nov 2020',logo:'./assets/images/experience/logo/99plugin.jpeg',position:'Web Developer',location:'Surat, Gujarat, India',websiteUrl:'https://koliinfotech.com/'},
-    {date:'Sept 2020 - Nov 2021',logo:'./assets/images/experience/logo/technozer.webp',position:'PHP Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://www.dynamicdreamz.com/'},
-    {date:'Dec 2021 - Aug 2022',logo:'./assets/images/experience/logo/dynamicdreamz.png',position:'Web Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://technozer.com/'},
-    {date:'Sept 2022 - Present',logo:'./assets/images/experience/logo/koli-infotech.png',position:'PHP Developer',location:'Surat, Gujarat, India',websiteUrl:''},
+    {date:'Aug 2018 - Nov 2020',logo:'./assets/images/experience/logo/99plugin.jpeg',position:'Web Developer',location:'Surat, Gujarat, India',websiteUrl:'#'},
+    {date:'Sept 2020 - Nov 2021',logo:'./assets/images/experience/logo/technozer.webp',position:'PHP Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:''},
+    {date:'Dec 2021 - Aug 2022',logo:'./assets/images/experience/logo/dynamicdreamz.png',position:'Web Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://www.dynamicdreamz.com/'},
+    {date:'Sept 2022 - Sept 2023',logo:'./assets/images/experience/logo/koli-infotech.png',position:'Software Engineer',location:'Surat, Gujarat, India',websiteUrl:'https://koliinfotech.com/'},
+    {date:'Sept 2023 - April 2024',logo:'./assets/images/experience/logo/ITAlogo.png',position:'Senior PHP Developer (Remote)',location:'Liverpool, Merseyside,Northwest England',websiteUrl:'https://itanswers.com/'},
+
   ];
   return (
     <>
