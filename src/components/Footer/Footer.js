@@ -2,6 +2,7 @@ import React from "react";
 //import PropTypes from 'prop-types'
 
 const Footer = (props) => {
+  const currentYear =new Date().getFullYear();
   return (
     <>
       <footer className="wpo-site-footer">
@@ -10,7 +11,7 @@ const Footer = (props) => {
             <div className="row">
               <div className="widget about-widget  d-flex justify-content-between py-4">
                 <p className="copyright">
-                  Copyright &copy; 2022 Yogesh Vakhre. All rights reserved.
+                  Copyright &copy; {currentYear} Yogesh Vakhre. All rights reserved.
                 </p>
 
                 <div className="social-icons">
