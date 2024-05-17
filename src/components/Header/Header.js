@@ -38,7 +38,7 @@ const Header = (props) => {
                     </button>
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                       <li>
-                        <Link className="active" to="/">
+                        <Link to="/">
                           Home
                         </Link>
                       </li>
