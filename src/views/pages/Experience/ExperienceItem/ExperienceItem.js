@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
  
 const ExperienceItem = (props) => {
   const {date,logo,position,location,websiteUrl}= props;
@@ -13,9 +14,12 @@ const ExperienceItem = (props) => {
           <li className="position">
             {position} <span>{location}.</span>
           </li>
-          <li className="link">
+          { websiteUrl & websiteUrl ==="#" ? (<li className="link">
             <a href={websiteUrl} target="_blank" rel="noreferrer">Go to website</a>
-          </li>
+          </li>):(<li className="link">
+            <Link href="#" >Go to website</Link>
+          </li>)}
+          
         </ul>
       </div>      
     </>
