@@ -25,7 +25,7 @@ const AboutSection = (props) => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12 col-sm-12">
-               <AboutExprience yearOfExperience='5+' clientsSatisfections='100' />
+               <AboutExprience yearOfExperience='6+' clientsSatisfections='100' />
             </div>
             <div className="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
               <div className="wpo-about-content">

@@ -15,9 +15,9 @@ const ExperienceItem = (props) => {
             {position} <span>{location}.</span>
           </li>
           { websiteUrl & websiteUrl ==="#" ? (<li className="link">
-            <a href={websiteUrl} target="_blank" rel="noreferrer">Go to website</a>
-          </li>):(<li className="link">
             <Link href="#" >Go to website</Link>
+          </li>):(<li className="link">
+            <a href={websiteUrl} target="_blank" rel="noreferrer">Go to website</a>
           </li>)}
           
         </ul>

@@ -9,6 +9,7 @@ const Experience = (props) => {
     {date:'Dec 2021 - Aug 2022',logo:'./assets/images/experience/logo/dynamicdreamz.png',position:'Web Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://www.dynamicdreamz.com/'},
     {date:'Sept 2022 - Sept 2023',logo:'./assets/images/experience/logo/koli-infotech.png',position:'Software Engineer',location:'Surat, Gujarat, India',websiteUrl:'https://koliinfotech.com/'},
     {date:'Sept 2023 - April 2024',logo:'./assets/images/experience/logo/ITAlogo.png',position:'Senior PHP Developer (Remote)',location:'Liverpool, Merseyside,Northwest England',websiteUrl:'https://itanswers.com/'},
+     {date:'June 2024 - Aug 2025',logo:'./assets/images/experience/logo/CFox-r-2-300x98-1.webp',position:'Senior PHP Developer (Remote)',location:'Bengaluru, Karnataka, India',websiteUrl:'https://www.cleverfoxpublishing.com/'},
 
   ];
   return (

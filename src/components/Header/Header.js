@@ -65,7 +65,7 @@ const Header = (props) => {
                       <a
                         className="theme-btn"
                         download="Yogesh Vakhre 5+ Years CV"
-                        href="assets/resume/Yogesh_Vakhre_5+__Years_CV.pdf"
+                        href="assets/resume/Yogesh_Vakhre_6__Years_CV.pdf"
                         title="ImageName"
                       >
                         <img
