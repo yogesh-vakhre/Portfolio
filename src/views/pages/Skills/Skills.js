@@ -10,7 +10,10 @@ const Skills = (props) => {
     { skillName: "CSS", count: "60", colorText: "blue" },
     { skillName: "Javascript", count: "85", colorText: "yellow" },
     { skillName: "Jquery", count: "85", colorText: "#0769ad" },
+    { skillName: "Ajax", count: "90", colorText: "#0769ad" },
+    { skillName: "Tailwind CSS", count: "80", colorText: "#00bcff" },
     { skillName: "Bootstrap", count: "85", colorText: "#5a23c8" },
+    { skillName: "Vue.js", count: "70", colorText: "green" },
     { skillName: "React.js", count: "70", colorText: "#7acef4" },
     { skillName: "Node.js", count: "80", colorText: "green" },
     { skillName: "Express.js", count: "85", colorText: "#d8d8d8" },
@@ -19,6 +22,8 @@ const Skills = (props) => {
     { skillName: "Mongodb", count: "70", colorText: "rgb(17, 97, 73)" },
     { skillName: "MySQL", count: "80", colorText: "#3E6E93" },
     { skillName: "OOPS", count: "85", colorText: "red" },
+    { skillName: "AWS", count: "80", colorText: "black" },
+    { skillName: "Docker", count: "70", colorText: "Blue" },
     { skillName: "Github", count: "80", colorText: "#d8d8d894" },
     { skillName: "Bitbucket", count: "80", colorText: "#0065ff" },
     { skillName: "GitLab", count: "80", colorText: "#f24f63" },
@@ -35,7 +40,7 @@ const Skills = (props) => {
             <div className="col-lg-12 offset-lg-1 col-md-12 col-sm-12">
               <div className="wpo-about-content">
                 <div className="wpo-about-funfact">
-                  {SkillsData.map((data,index) => (
+                  {SkillsData.map((data, index) => (
                     <GridItem
                       key={index}
                       count={data.count}
