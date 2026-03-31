@@ -4,17 +4,59 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle/SectionT
 
 const Experience = (props) => {
   const experience = [
-    {date:'Aug 2018 - Nov 2020',logo:'./assets/images/experience/logo/99plugin.jpeg',position:'Web Developer',location:'Surat, Gujarat, India',websiteUrl:'#'},
-    {date:'Sept 2020 - Nov 2021',logo:'./assets/images/experience/logo/technozer.webp',position:'PHP Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://technozer.com/'},
-    {date:'Dec 2021 - Aug 2022',logo:'./assets/images/experience/logo/dynamicdreamz.png',position:'Web Laravel Developer',location:'Surat, Gujarat, India',websiteUrl:'https://www.dynamicdreamz.com/'},
-    {date:'Sept 2022 - Sept 2023',logo:'./assets/images/experience/logo/koli-infotech.png',position:'Software Engineer',location:'Surat, Gujarat, India',websiteUrl:'https://koliinfotech.com/'},
-    {date:'Sept 2023 - April 2024',logo:'./assets/images/experience/logo/ITAlogo.png',position:'Senior PHP Developer (Remote)',location:'Liverpool, Merseyside,Northwest England',websiteUrl:'https://itanswers.com/'},
-     {date:'June 2024 - Aug 2025',logo:'./assets/images/experience/logo/CFox-r-2-300x98-1.webp',position:'Senior PHP Developer (Remote)',location:'Bengaluru, Karnataka, India',websiteUrl:'https://www.cleverfoxpublishing.com/'},
-
+    {
+      date: "Oct 2025 – March 2026",
+      logo: "./assets/images/experience/logo/CitiusTech_Logo_White@2x%201.svg",
+      position: "Technical Lead-I (Hybrid)",
+      location: "Navi Mumbai, Maharashtra, India",
+      websiteUrl: "https://www.citiustech.com/",
+    },
+    {
+      date: "June 2024 - Aug 2025",
+      logo: "./assets/images/experience/logo/CFox-r-2-300x98-1.webp",
+      position: "Senior PHP Developer (Remote)",
+      location: "Chennai, Tamil Nadu, India",
+      websiteUrl: "https://www.cleverfoxpublishing.com/",
+    },
+    {
+      date: "Sept 2023 - April 2024",
+      logo: "./assets/images/experience/logo/ITA-New-White.png",
+      position: "Senior PHP Developer (Remote)",
+      location: "Liverpool, Merseyside,Northwest England",
+      websiteUrl: "https://itanswers.com/",
+    },
+    {
+      date: "Sept 2022 - Sept 2023",
+      logo: "./assets/images/experience/logo/koli-infotech.png",
+      position: "Software Engineer",
+      location: "Surat, Gujarat, India",
+      websiteUrl: "https://koliinfotech.com/",
+    },
+    {
+      date: "Dec 2021 - Aug 2022",
+      logo: "./assets/images/experience/logo/dynamicdreamz.png",
+      position: "Web Laravel Developer",
+      location: "Surat, Gujarat, India",
+      websiteUrl: "https://www.dynamicdreamz.com/",
+    },
+    {
+      date: "Sept 2020 - Nov 2021",
+      logo: "./assets/images/experience/logo/technozer.webp",
+      position: "PHP Laravel Developer",
+      location: "Surat, Gujarat, India",
+      websiteUrl: "https://technozer.com/",
+    },
+    {
+      date: "Aug 2018 - Nov 2020",
+      logo: "./assets/images/experience/logo/99plugin.jpeg",
+      position: "Web Developer",
+      location: "Surat, Gujarat, India",
+      websiteUrl: "#",
+    },
   ];
   return (
     <>
-     <SectionTitle pageTitle="Experience" sectionTitleClass="" />
+      <SectionTitle pageTitle="Experience" sectionTitleClass="" />
       <div className="wpo-work-area section-padding" id="experience">
         <div className="container">
           {/* <div className="row justify-content-center">
@@ -29,9 +71,16 @@ const Experience = (props) => {
             </div>
           </div> */}
           <div className="wpo-work-wrap">
-          {experience.map((item,index) => (
-            <ExperienceItem key={index} date={item.date} position={item.position} logo={item.logo} location={item.location} websiteUrl={item.websiteUrl} />
-            ))}  
+            {experience.map((item, index) => (
+              <ExperienceItem
+                key={index}
+                date={item.date}
+                position={item.position}
+                logo={item.logo}
+                location={item.location}
+                websiteUrl={item.websiteUrl}
+              />
+            ))}
           </div>
         </div>
         <div className="shape-wk">
