@@ -38,9 +38,7 @@ const Header = (props) => {
                     </button>
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                       <li>
-                        <Link to="/">
-                          Home
-                        </Link>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
                         <Link to="skills">Skills</Link>
@@ -64,7 +62,7 @@ const Header = (props) => {
                     <div className="header-btn">
                       <a
                         className="theme-btn"
-                        download="Yogesh Vakhre 5+ Years CV"
+                        download="Yogesh Vakhre 6+ Years CV"
                         href="assets/resume/Yogesh_Vakhre_6__Years_CV.pdf"
                         title="ImageName"
                       >
