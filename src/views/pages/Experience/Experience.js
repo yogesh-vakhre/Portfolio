@@ -46,13 +46,6 @@ const Experience = (props) => {
       location: "Surat, Gujarat, India",
       websiteUrl: "https://technozer.com/",
     },
-    {
-      date: "Aug 2018 - Nov 2020",
-      logo: "./assets/images/experience/logo/99plugin.jpeg",
-      position: "Web Developer",
-      location: "Surat, Gujarat, India",
-      websiteUrl: "#",
-    },
   ];
   return (
     <>
