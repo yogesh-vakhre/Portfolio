@@ -100,7 +100,7 @@ const Projects = (props) => {
       url: "https://www.ax3.com/",
       skill: "Full Stack Based Project/React.js, Node.js",
       icons: [
-         "assets/images/icon/html.svg",
+        "assets/images/icon/html.svg",
         "assets/images/icon/css.svg",
         "assets/images/icon/react.svg",
         "assets/images/icon/nodejs.svg",
@@ -111,14 +111,14 @@ const Projects = (props) => {
     {
       title: "Catalyst Pay SDK for PHP",
       image: "assets/images/project/catalystpay.jpeg",
-      url: "https://github.com/Catalystpay-LTD/gateway-php-sdk",
+      url: "https://github.com/Catalystpay-LTD/gateway-php-sdk-public",
       skill: "Full Stack Based Project/PHP,Package & MySQL",
       icons: [
         "assets/images/icon/html.svg",
         "assets/images/icon/css.svg",
         "assets/images/icon/javascript.svg",
         "assets/images/icon/jquery.svg",
-        "assets/images/icon/mysql.svg",             
+        "assets/images/icon/mysql.svg",
       ],
     },
     {
@@ -128,8 +128,8 @@ const Projects = (props) => {
       skill: "Backend Based Project/Laravel & MySQL",
       icons: [
         "assets/images/icon/laravel.min.svg",
-        "assets/images/icon/mysql.svg",   
-        "assets/images/icon/jquery.svg",                 
+        "assets/images/icon/mysql.svg",
+        "assets/images/icon/jquery.svg",
       ],
     },
   ];
